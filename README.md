@@ -1,5 +1,5 @@
 
-strategy used : "On Balance Volume"
+strategy used : "On Balance Volume ema's diffrance"
 on days where price went up, that day's volume is added to the cumulative OBV total. If price went down, then that day's volume is subtracted from the OBV total.
 Simple but effective gives good results and also work as conformation sign, Along with exit strategy gives better results.
 
