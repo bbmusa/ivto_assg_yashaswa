@@ -9,4 +9,9 @@ codes:
 - testing: test.py
 
 outputs:
-![image](https://github.com/bbmusa/ivto_assg_yashaswa/assets/65719349/2c443b31-ef86-4d62-afca-48e2113d5103)
+backtest:
+![image](https://github.com/bbmusa/ivto_assg_yashaswa/assets/65719349/ad7e879e-06d9-4562-bb19-2aec2f6d239d)
+
+testing
+![image](https://github.com/bbmusa/ivto_assg_yashaswa/assets/65719349/43668ae0-9366-4948-aed8-e807bc0181c2)
+
