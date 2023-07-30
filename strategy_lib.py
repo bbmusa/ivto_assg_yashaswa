@@ -101,13 +101,10 @@ class Investo:
     
             num_trades += 1
     
-        # Calculate signal win percentage
-        signal_win_percentage = (num_winning_trades / num_trades) * 100
+        signal_win_percentage = round((num_winning_trades / num_trades) * 100,2)
     
-        # Calculate average profit and average loss % (initial capital)
         avg_profit_pct = total_profit / num_trades
     
-        # Calculate total % profit
         final_balance = round(calculate_portfolio_value(balance, position, df['close'].iloc[-1]))
         total_pct_profit = (final_balance-initial_balance )/1000
     
