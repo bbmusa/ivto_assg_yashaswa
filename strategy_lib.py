@@ -8,7 +8,6 @@ import tulipy as ti
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-df = pd.read_excel("HINDALCO_1D.xlsx")
 
 class Investo:
     def __init__(self,df):
@@ -119,8 +118,5 @@ class Investo:
         print(f"Avg win % (Initial Capital): {avg_profit_pct:.2f}%")
         print(f"Max Profit % (Initial Capital): {max_profit_pct:.2f}%")
         print(f"Max Loss % (Initial Capital): {max_loss_pct:.2f}%")
-
-        
-    
-Investo(df)
+ 
     
